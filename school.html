@@ -3,45 +3,72 @@
 	
 <head>
 	<meta charset="utf-8">
-	<link href="assets/css/styles.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/images/favicon.ico">
 	
 	<title>Welcome to Joe's Homepage!</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="assets/css/justified-nav.css" rel="stylesheet">
 </head>
 	
 <body>
-	<table width="100%">
-		<table width="100%">
-			<tr class="banner"><td colspan="6"><h1>Welcome to my Homepage!</h1></td></tr>
-			<tr class="menu_bar">
-				<td><a href="index.html">Home</a></td>		
-				<td><a href="school.html">School</a></td>
-				<td><a href="hobbies.html">Hobbies</a></td>
-				<td><a href="work.html">Work</a></td>
-				<td><a href="movies.html">Movies/TV Shows</a></td>
-				<td><a href="contact.html">Contact</a></td>
-			</tr>
-		</table>
-		
-	
-		<table width="100%">
-			<tr class="content-head"><td colspan="6"><h1>School Information</h1></td></tr>
-			<tr><td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/UTSA_Athletics_logo.svg/640px-UTSA_Athletics_logo.svg.png" alt="University of Texas at San Antonio Logo" title="UTSA Logo" width="208" height="96"/></td></tr>
-			<tr class="content"><td colspan="6"> 
-				<p>I am a transfer student and am currently a <b>Senior in <a href="https://www.utsa.edu" target="_blank" >University of Texas at San Antonio</a>. I am majoring in Bachelor of Science in Computer Science</b>. I have yet to choose which concentration I am taking but it will be either Software Engineering or Cybersecurity.</p>
-			</td></tr>
-			<tr><td colspan="6"> 
-				For this semester, FALL 2023, I am taking 7 courses and they are as follows:
-				<table border="1px">
-					<tr><td> CS 3723 (Programming Languages)</td></tr>
-					<tr><td> CS 3733 (Operating Systems)</td></tr>
-					<tr><td> CS 3743 (Database Systems)</td></tr>
-					<tr><td> CS 3773 (Software Engineering)</td></tr>
-					<tr><td> CS 3853 (Computer Architecture)</td></tr>
-					<tr><td> CS 4413 (Web Technologies)</td></tr>
-					<tr><td> CS 4911 (Independent Study for Computer Organization)</td></tr>
-				</table>
-			</td></tr>
-		</table>
-	</table>
+	<div class="container">
+
+		<!-- The justified navigation menu is meant for single line per list item.
+			 Multiple lines will require custom code not provided by Bootstrap. -->
+		<div class="masthead">
+		  <h3 class="text-muted">Welcome to Joe's Homepage!</h3>
+		  <nav>
+			<ul class="nav nav-justified">
+			  <li><a href="index.html">Home</a></li>
+			  <li class="active"><a href="school.html">School</a></li>
+			  <li><a href="hobbies.html">Hobbies</a></li>
+			  <li><a href="work.html">Work</a></li>
+			  <li><a href="movies.html">Movies/TV Shows</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			</ul>
+		  </nav>
+		</div>
+  
+		<!-- Jumbotron -->
+		<div class="jumbotron">
+		  <h1>School Information</h1>
+		   <p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/UTSA_Athletics_logo.svg/640px-UTSA_Athletics_logo.svg.png" alt="University of Texas at San Antonio Logo" title="UTSA Logo" width="208" height="96"/></p>
+		  <p class="lead">I am a transfer student and am currently a <b>Senior in <a href="https://www.utsa.edu" target="_blank" >University of Texas at San Antonio</a>. I am majoring in Bachelor of Science in Computer Science</b>. I have yet to choose which concentration I am taking but it will be either Software Engineering or Cybersecurity.</p>
+		</div>
+  
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="col-lg-3"></div>
+		  <div class="col-lg-6">
+			<table class="table table-striped">
+				<thead align="center">
+				  <th>For this semester, FALL 2023, I am taking 7 courses and they are as follows:</th>
+			  </thead>
+				<tbody align="center">
+					  <tr><td> CS 3723 (Programming Languages)</td></tr>
+					  <tr><td> CS 3733 (Operating Systems)</td></tr>
+					  <tr><td> CS 3743 (Database Systems)</td></tr>
+					  <tr><td> CS 3773 (Software Engineering)</td></tr>
+					  <tr><td> CS 3853 (Computer Architecture)</td></tr>
+					  <tr><td> CS 4413 (Web Technologies)</td></tr>
+					  <tr><td> CS 4911 (Independent Study for Computer Organization)</td></tr>
+			  </tbody>
+		  </table>
+		  </div>
+		  <div class="col-lg-3"></div>
+		</div>
+  
+		<!-- Site footer -->
+  
+	  </div> <!-- /container -->
 </body>
 </html>

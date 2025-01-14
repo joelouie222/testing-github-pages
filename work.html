@@ -3,31 +3,51 @@
 	
 <head>
 	<meta charset="utf-8">
-	<link href="assets/css/styles.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/images/favicon.ico">
 	
 	<title>Welcome to Joe's Homepage!</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="assets/css/justified-nav.css" rel="stylesheet">
 </head>
 	
 <body>
-	<table width="100%">
-		<table width="100%">
-			<tr class="banner"><td colspan="6"><h1>Welcome to my Homepage!</h1></td></tr>
-			<tr class="menu_bar">
-				<td><a href="index.html">Home</a></td>		
-				<td><a href="school.html">School</a></td>
-				<td><a href="hobbies.html">Hobbies</a></td>
-				<td><a href="work.html">Work</a></td>
-				<td><a href="movies.html">Movies/TV Shows</a></td>
-				<td><a href="contact.html">Contact</a></td>
-			</tr>
-		</table>
-	
-		<table width="100%">
-			<tr class="content-head"><td colspan="6"><h1>Work Information</h1></td></tr>
-			<tr class="content"><td colspan="6"> 
-				<p>I am a full time student. However, I am also a Traditional Reservist for the United States Air Force Reserve. My position is Cyberspace Defense Operations at Lackland AFB.</p>
-			</td></tr>
-		</table>
-	</table>
+	<div class="container">
+
+		<!-- The justified navigation menu is meant for single line per list item.
+			 Multiple lines will require custom code not provided by Bootstrap. -->
+		<div class="masthead">
+		  <h3 class="text-muted">Welcome to Joe's Homepage!</h3>
+		  <nav>
+			<ul class="nav nav-justified">
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="school.html">School</a></li>
+			  <li><a href="hobbies.html">Hobbies</a></li>
+			  <li class="active"><a href="work.html">Work</a></li>
+			  <li><a href="movies.html">Movies/TV Shows</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			</ul>
+		  </nav>
+		</div>
+  
+		<!-- Jumbotron -->
+		<div class="jumbotron">
+		  <h1>Work Information</h1>
+		  <p class="lead">
+		  I am a full time student. However, I am also a Traditional Reservist for the United States Air Force Reserve. My position is Cyberspace Defense Operations at Lackland AFB.  
+		  </p>
+		</div>
+  
+		<!-- Site footer -->
+  
+	  </div> <!-- /container -->
 </body>
 </html>
