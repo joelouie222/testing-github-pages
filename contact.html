@@ -68,7 +68,41 @@
 		</div>
 		<!-- Site footer -->
 		 
+		<div>
+			<form id="contact">
+				<div class="form-group">
+					<div>
+						<label for="fname">First Name</label>
+						<input type="text" class="form-control" id="fname" placeholder="First Name">
+						<p id="fnameStatus"></p>
+					</div>
+					<div>
+						<label for="lname">Last Name</label>
+						<input type="text" class="form-control" id="lname" placeholder="Last Name">
+						<p id="lnameStatus"></p>
+					</div>
+					<div>
+						<label for="email">Email address</label>
+						<input type="email" class="form-control" id="email" placeholder="Email">
+						<p id="emailStatus"></p>
+					</div>
+					<div>
+						<label for="phone">Phone number</label>
+						<input type="text" class="form-control" id="phone" placeholder="Phone number">
+						<p id="phoneStatus"></p>
+					</div>
+					<div>
+						<label for="comments">Comments</label>
+						<textarea class="form-control" id="comments" rows="4" cols="50" placeholder="Comments"></textarea>
+						<p id="commentsStatus"></p>
+					</div>
+				</div>
+				<button type="submit" value="submit">Submit</button>
+			</form>
+		</div>
+
 	  </div> <!-- /container -->
 </body>
 <script src="assets/js/calculator.js"></script>
+<script src="assets/js/validation.js"></script>  
 </html>
