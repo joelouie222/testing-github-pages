@@ -43,7 +43,7 @@ A modern, responsive Bootstrap website for downloading a free e-book. Features i
 - Contact page with embedded Google Map
 - Social media icons and responsive footer
 
-🔗 [View Project 4](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bookstrap5-ebook-website)
+🔗 [View Project 4](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-ebook-website)
 
 
 ---
