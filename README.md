@@ -33,6 +33,19 @@ A multi-page personal homepage built with Bootstrap. Includes sections for educa
 🔗 [View Project 3](https://github.com/joelouie222/testing-github-pages/tree/main/docs/webtech-course-project)
 
 
+### 🧩 Project 4: Ebook Landing Page
+
+A modern, responsive Bootstrap website for downloading a free e-book. Features include:
+
+- Sticky navbar with scroll styling
+- Styled form with Formspree integration
+- Testimonials and modal popups
+- Contact page with embedded Google Map
+- Social media icons and responsive footer
+
+🔗 [View Project 4](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bookstrap5-ebook-website)
+
+
 ---
 
 ## 📬 Contact
