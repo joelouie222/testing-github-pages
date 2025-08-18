@@ -1,117 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-
-		<title>Bootstrap 5 From Scratch</title>
-	</head>
-    
+<head>
+    <meta charset="UTF-8">
+    <title>Testing out Github Pages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+        h1 { color: #333; }
+        .projects { display: flex; flex-wrap: wrap; gap: 2em; }
+        .project-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1em;
+            width: 300px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        .project-card h2 { margin-top: 0; font-size: 1.2em; }
+        .project-card p { color: #555; }
+        .project-card a { color: #0078d4; text-decoration: none; }
+        .project-card a:hover { text-decoration: underline; }
+    </style>
+</head>
 <body>
-	<div class="container py-5">
-		<h1 class="mb-4">Bootstrap 5 From Scratch</h1>
-		<p>Bootstrap 5 From Scratch - Build 5 Modern Websites</p>
-		<p>Instructor: Brad Traversy</p>
-
-		<ul class="list-group">
-
-			<!-- Pricing Cards -->
-			<li class="list-group-item py-5">
-				<a href="/docs/pricing-cards/index.html" target="_blank"><h4>Pricing Cards</h4></a>
-				<div class="mt-3 text-secondary" style="font-size: 0.9rem;">
-					<p class="mb-2">
-					This HTML demonstrates a modern, <strong>responsive pricing page</strong> built with the <strong>Bootstrap 5 framework</strong>. It showcases two subscription plans ("Free" and "Pro") in visually appealing cards.
-					</p>
-
-					<h6 class="fw-bold mt-3">Core Purpose & Design 💲</h6>
-					<p>
-					The goal is to present pricing options clearly. The "Pro" plan is intentionally styled with a dark background (<code>text-bg-dark</code>) to make it a high-contrast, <strong>featured option</strong> that draws the user's attention.
-					</p>
-
-					<h6 class="fw-bold mt-3">Key Technologies & Features 🛠️</h6>
-					<ul>
-					<li>
-						<strong>Responsive Grid:</strong> Uses Bootstrap's grid system (<code>col-md-6</code>) so the cards sit side-by-side on desktops but stack vertically on mobile devices.
-					</li>
-					<li>
-						<strong>Bootstrap Components:</strong> Relies on pre-styled Bootstrap components like <code>card</code>, <code>button</code>, and <code>list-group</code> for a polished look without custom CSS.
-					</li>
-					<li>
-						<strong>External Assets:</strong> Imports the "Poppins" font from <strong>Google Fonts</strong> for custom typography and uses <strong>Bootstrap Icons</strong> for the checkmarks.
-					</li>
-					</ul>
-				</div>
-			</li>
-
-			<!-- Ratings Component -->
-			<li class="list-group-item py-5">
-				<a href="/docs/ratings-component/index.html" target="_blank"><h4>Ratings Component</h4></a>
-				<div class="mt-3 text-secondary" style="font-size: 0.9rem;">
-					<p class="mb-2">
-						This code creates a comprehensive <strong>customer review and ratings summary component</strong> using <strong>Bootstrap 5</strong> for layout and <strong>Font Awesome</strong> for icons. The entire element is contained within a single, styled Bootstrap card.
-					</p>
-
-					<h6 class="fw-bold mt-3">Core Purpose & Design 📊</h6>
-					<p>
-						The component's primary goal is to provide a clear, visual summary of product ratings. It effectively communicates both the overall average score and the detailed distribution of reviews across different star levels (1 to 5 stars).
-					</p>
-
-					<h6 class="fw-bold mt-3">Key Features & Components 🛠️</h6>
-					<ul>
-						<li>
-							<strong>Average Rating Display:</strong> A prominent card highlights the average score (e.g., 4.8) next to a star icon for quick visibility.
-						</li>
-						<li>
-							<strong>Visual Rating Breakdown:</strong> Uses Bootstrap's <code>progress</code> bar component to create horizontal bars, showing the percentage of reviews for each star rating.
-						</li>
-						<li>
-							<strong>Search Functionality:</strong> Includes a styled <code>input-group</code> that serves as a search bar for users to find specific reviews.
-						</li>
-						<li>
-							<strong>Call to Action:</strong> A large, green "Write Review" button encourages user engagement.
-						</li>
-					</ul>
-				</div>
-			</li>
-
-			<!-- User List -->
-			<li class="list-group-item py-5">
-				<a href="/docs/user-list/index.html" target="_blank"><h4>User List</h4></a>
-				<div class="mt-3 text-secondary" style="font-size: 0.9rem;">
-					<p class="mb-2">
-						This code demonstrates an interactive <strong>user directory or list page</strong>, built with a rich interface using <strong>Bootstrap 5</strong>. It includes features for searching, filtering, and viewing user profiles in a grid layout.
-					</p>
-
-					<h6 class="fw-bold mt-3">Core Purpose & Design 👥</h6>
-					<p>
-						The component is designed to display a collection of user profiles in a clean, card-based grid. Each card presents essential information like a profile picture, name, location, and interest tags. The header section provides tools for navigating and managing the list.
-					</p>
-
-					<h6 class="fw-bold mt-3">Key Features & Components 🛠️</h6>
-					<ul>
-						<li>
-							<strong>Interactive Header:</strong> Contains a search input, filter navigation links ("Reputation," "New Users," etc.), and a <strong>dark/light mode toggle</strong>.
-						</li>
-						<li>
-							<strong>Card-Based Grid:</strong> The user profiles are arranged in a responsive three-column grid that adapts to different screen sizes. Each profile uses a Bootstrap <code>card</code> component.
-						</li>
-						<li>
-							<strong>JavaScript Popovers:</strong> Each user card is enhanced with a Bootstrap <strong>popover</strong>, which is triggered on click to show additional information like an email address.
-						</li>
-						<li>
-							<strong>Dynamic Content:</strong> Profile images are loaded from the <a href="https://randomuser.me/" target="_blank">Random User Generator</a> API, simulating how a real-world application would display dynamic data.
-						</li>
-					</ul>
-				</div>
-				
-			</li>
-
-      		<!-- Add more links as needed -->
-    </ul>
-  </div> <!-- /container -->
-
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <h1>Testing out Github Pages</h1>
+    <p>Here's some projects I've gotten from various courses/training I've completed.</p>
+    <div class="projects">
+        <!-- Example project cards. Replace/add as needed. -->
+        <div class="project-card">
+            <h2><a href="bootstrap5-mini-project-challenges/">Mini Project Challenges (Bootstrap 5)</a></h2>
+            <p>This page is a simple landing index for a Bootstrap 5 course project. It lists links to different demo components—Pricing Cards, Ratings Component, and User List—each with a brief description of its purpose and key features. The layout uses Bootstrap for styling and responsive design, making it clean and modern. Each section explains what the linked demo showcases and the technologies used.</p>
+        </div>
+        <!-- Add more project cards as needed, matching your folder names and project descriptions -->
+    </div>
 </body>
 </html>
