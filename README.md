@@ -79,11 +79,44 @@ A fully responsive, dark-light themed portfolio site built with Bootstrap and cu
 - 📊 Stats section with animated metrics
 - 🛠️ Services overview and contact form powered by Netlify
 
-This project reflects your dual expertise in cybersecurity and software development, with a playful tone and polished presentation.
-
 🔗 [View Project 6](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-portfolio-website)
 
 ---
+
+### 🧑‍💻 Project 7: Company Website
+
+Bootstrap website for a company that creates and customizes office spaces. It could be used for just about any kind of business. It is a very light business theme with a clean design.
+
+- Clean design with background images/patterns
+- Responsive design
+- Custom JavaScript for the stat counter
+- Nav scroll effect
+- Project area
+- Testimonial slider/carousel
+- Contact form
+- Inner article page
+- Font awesome icons
+
+🔗 [View Project 7](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-company-website)
+
+---
+
+### 🧑‍💻 Project 8: Software Solutions
+
+Bootstrap Business website for software solutions, but could easily be changed to fit any business. Dark-themed design with modals and other features.
+
+- Dark design with bright buttons & text for contrast
+- Responsive design
+- Replaceme script for rolling words
+- Navbar scroll effect
+- Video modal
+- Animated play button
+- Pricing grid
+- Styled modals for projects
+- Font awesome icons
+
+🔗 [View Project 8](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-services-website)
+
 
 ## 📬 Contact
 
