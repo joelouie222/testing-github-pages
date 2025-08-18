@@ -1,6 +1,9 @@
 📚 Course: Bootstrap 5 From Scratch - Build 5 Modern Websites
+
 Duration: 13 hours
+
 Instructor: Brad Traversy
+
 This hands-on course offers a comprehensive introduction to modern web development using Bootstrap 5 and Sass. You'll start with foundational concepts like containers, grids, and responsive design, then progress to building dynamic, interactive components using Bootstrap’s JavaScript integrations. Through five real-world projects, you'll gain practical experience in designing and deploying visually polished, responsive websites.
 
 ✅ What You'll Learn
