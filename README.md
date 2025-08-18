@@ -63,6 +63,25 @@ A responsive Bootstrap site for showcasing training and seminar videos. Designed
 
 🔗 [View Project 5](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-corso-website)
 
+---
+
+### 🧑‍💻 Project 6: Portfolio Website
+
+A fully responsive, dark-light themed portfolio site built with Bootstrap and custom JavaScript. Designed to showcase your professional identity and technical skills with:
+
+- 🌓 Dark/light theme contrast
+- 🖥️ Full-height hero section with typewriter effect
+- 🧠 Profile and skills section with progress bars
+- 🖼️ Lightbox modals for project previews
+- 📱 Responsive layout and clean typography
+- 🎯 Font Awesome icons and social media integration
+- 📄 “Hire Me” and “Download CV” call-to-action buttons
+- 📊 Stats section with animated metrics
+- 🛠️ Services overview and contact form powered by Netlify
+
+This project reflects your dual expertise in cybersecurity and software development, with a playful tone and polished presentation.
+
+🔗 [View Project 6](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-portfolio-website)
 
 ---
 
