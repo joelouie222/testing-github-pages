@@ -1,22 +1,48 @@
-📚 Course: Bootstrap 5 From Scratch - Build 5 Modern Websites
+# Web Tech Course Projects – Joe Louie Corporal
 
-Duration: 13 hours
+> 📌 **Purpose:** This repository is created solely to test GitHub Pages and to host websites and projects from various web development courses I've taken over the years.
 
-Instructor: Brad Traversy
+It includes hands-on work with HTML, CSS, and Bootstrap, showcasing responsive design, UI components, and personal branding.
 
-This hands-on course offers a comprehensive introduction to modern web development using Bootstrap 5 and Sass. You'll start with foundational concepts like containers, grids, and responsive design, then progress to building dynamic, interactive components using Bootstrap’s JavaScript integrations. Through five real-world projects, you'll gain practical experience in designing and deploying visually polished, responsive websites.
+## 🌐 Live Site
 
-✅ What You'll Learn
-- Master the core principles of Bootstrap 5 for layout and styling.
-- Use Sass to customize Bootstrap themes for tailored design systems.
-- Build interactive UI features with JavaScript-powered Bootstrap components.
-- Complete five full website projects, each highlighting different Bootstrap capabilities.
-- Deploy production-ready sites to platforms like Vercel and Netlify.
+Visit the deployed site on GitHub Pages:  
+🔗 [https://joelouie222.github.io/testing-github-pages/](https://joelouie222.github.io/testing-github-pages/)
 
-🎓 Who Should Take This Course?
-Ideal for:
-- Aspiring web developers seeking hands-on experience.
-- UI/UX designers wanting to implement responsive designs.
-- Intermediate developers looking to sharpen their Bootstrap and Sass skills.
+---
 
-Basic HTML and CSS knowledge is helpful but not required.
+## 📁 Projects
+
+### 🧩 Project 1: Bootstrap 5 From Scratch
+A hands-on walkthrough of Bootstrap 5 components and utilities, based on Brad Traversy's course. Includes 28+ interactive demos covering layout, forms, modals, dark mode, and more.
+
+🔗 [View Project 1](https://joelouie222.github.io/testing-github-pages/docs/bootstrap5-from-scratch)
+
+---
+
+### 🧩 Project 2: Bootstrap UI Demos
+A collection of responsive UI components built with Bootstrap 5. Includes pricing cards, ratings summary, and an interactive user directory with search, filters, and popovers.
+
+🔗 [View Project 2](https://joelouie222.github.io/testing-github-pages/docs/bootstrap5-mini-project-challenges)
+
+---
+
+### 🧩 Project 3: Personal Profile Website
+A multi-page personal homepage built with Bootstrap. Includes sections for education, hobbies, work experience, favorite media, and contact info. Features a profile photo and responsive navigation.
+
+🔗 [View Project 3](https://joelouie222.github.io/testing-github-pages/docs/webtech-course-project)
+
+
+---
+
+## 📬 Contact
+
+- 📧 Email: joe_louie.corporal@outlook.com
+- 💼 LinkedIn: [linkedin.com/in/joelouiecorporal](https://linkedin.com/in/joelouiecorporal)
+
+---
+
+## 📜 License
+
+This repository is for educational purposes. Feel free to explore and learn from the code.
+
