@@ -32,6 +32,7 @@ A multi-page personal homepage built with Bootstrap. Includes sections for educa
 
 🔗 [View Project 3](https://github.com/joelouie222/testing-github-pages/tree/main/docs/webtech-course-project)
 
+---
 
 ### 🧩 Project 4: Ebook Landing Page
 
@@ -44,6 +45,23 @@ A modern, responsive Bootstrap website for downloading a free e-book. Features i
 - Social media icons and responsive footer
 
 🔗 [View Project 4](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-ebook-website)
+
+---
+
+### 🎓 Project 5: Corso Training Website
+
+A responsive Bootstrap site for showcasing training and seminar videos. Designed to engage users with:
+
+- Full-screen hero section and image carousel
+- Registration form with styled inputs and checkbox
+- Structured takeaways with numbered highlights
+- Course summary and expert-led seminar invitation
+- Key takeaways including cybersecurity, scientific insights, networking, and data-driven insights
+- Email subscription form with privacy notice
+- Footer with quick links and social media integration
+- Clean typography using Montserrat and Bootstrap 5
+
+🔗 [View Project 5](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-corso-website)
 
 
 ---
