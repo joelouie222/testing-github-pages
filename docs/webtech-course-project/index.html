@@ -1,37 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Testing out Github Pages</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
-        h1 { color: #333; }
-        .projects { display: flex; flex-wrap: wrap; gap: 2em; }
-        .project-card {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 1em;
-            width: 300px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-        }
-        .project-card h2 { margin-top: 0; font-size: 1.2em; }
-        .project-card p { color: #555; }
-        .project-card a { color: #0078d4; text-decoration: none; }
-        .project-card a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <h1>Testing out Github Pages</h1>
-    <p>Here's some projects I've gotten from various courses/training I've completed.</p>
-    <div class="projects">
-        <!-- Example project cards. Replace/add as needed. -->
-        <div class="project-card">
-            <h2><a href="bootstrap5-mini-project-challenges/">Mini Project Challenges (Bootstrap 5)</a></h2>
-            <p>This page is a simple landing index for a Bootstrap 5 course project. It lists links to different demo components—Pricing Cards, Ratings Component, and User List—each with a brief description of its purpose and key features. The layout uses Bootstrap for styling and responsive design, making it clean and modern. Each section explains what the linked demo showcases and the technologies used.</p>
-        </div>
-        <!-- Add more project cards as needed, matching your folder names and project descriptions -->
-    </div>
-</body>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Welcome to Joe's Homepage!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/justified-nav.css" rel="stylesheet">
+  </head>
+
+	
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <h3 class="text-muted">Welcome to Joe's Homepage!</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="school.html">School</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="movies.html">Movies/TV Shows</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Introduction</h1>
+		 <p><img src="assets/images/profile.jpg" alt="Profile photo" title="Profile photo"
+				 height="256" width="256" /></p>
+        <p class="lead">Hi, my name is <b>Joe</b>. I was born and raised in the <i>Philippines</i>. My family migrated to the United States when I was about 13. We moved to Stockton, California, where I finished my high school and college. I completed my Associate Degree in Computer Science. After college, I joined the United States Air Force where I work as an Arabic Linguist for the NSA for 6 years.</p>
+      </div>
+
+      <!-- Site footer -->
+
+    </div> <!-- /container -->
+  </body>
 </html>
