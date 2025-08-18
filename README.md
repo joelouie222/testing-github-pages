@@ -1,4 +1,4 @@
-# Web Tech Course Projects – Joe Louie Corporal
+# HTML, CSS, and Bootstrap
 
 > 📌 **Purpose:** This repository is created solely to test GitHub Pages and to host websites and projects from various web development courses I've taken over the years.
 
