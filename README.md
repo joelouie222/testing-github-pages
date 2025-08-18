@@ -16,21 +16,21 @@ Visit the deployed site on GitHub Pages:
 ### 🧩 Project 1: Bootstrap 5 From Scratch
 A hands-on walkthrough of Bootstrap 5 components and utilities, based on Brad Traversy's course. Includes 28+ interactive demos covering layout, forms, modals, dark mode, and more.
 
-🔗 [View Project 1](https://joelouie222.github.io/testing-github-pages/docs/bootstrap5-from-scratch)
+🔗 [View Project 1](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-from-scratch)
 
 ---
 
 ### 🧩 Project 2: Bootstrap UI Demos
 A collection of responsive UI components built with Bootstrap 5. Includes pricing cards, ratings summary, and an interactive user directory with search, filters, and popovers.
 
-🔗 [View Project 2](https://joelouie222.github.io/testing-github-pages/docs/bootstrap5-mini-project-challenges)
+🔗 [View Project 2](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-mini-project-challenges)
 
 ---
 
 ### 🧩 Project 3: Personal Profile Website
 A multi-page personal homepage built with Bootstrap. Includes sections for education, hobbies, work experience, favorite media, and contact info. Features a profile photo and responsive navigation.
 
-🔗 [View Project 3](https://joelouie222.github.io/testing-github-pages/docs/webtech-course-project)
+🔗 [View Project 3](https://github.com/joelouie222/testing-github-pages/tree/main/docs/webtech-course-project)
 
 
 ---
