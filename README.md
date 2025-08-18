@@ -13,7 +13,7 @@ Visit the deployed site on GitHub Pages:
 
 ## 📁 Projects
 
-### 🧩 Project 1: Bootstrap 5 From Scratch
+### 🧱 Project 1: Bootstrap 5 From Scratch
 A hands-on walkthrough of Bootstrap 5 components and utilities, based on Brad Traversy's course. Includes 28+ interactive demos covering layout, forms, modals, dark mode, and more.
 
 🔗 [View Project 1](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-from-scratch)
@@ -27,14 +27,14 @@ A collection of responsive UI components built with Bootstrap 5. Includes pricin
 
 ---
 
-### 🧩 Project 3: Personal Profile Website
+### 🪪 Project 3: Personal Profile Website
 A multi-page personal homepage built with Bootstrap. Includes sections for education, hobbies, work experience, favorite media, and contact info. Features a profile photo and responsive navigation.
 
 🔗 [View Project 3](https://github.com/joelouie222/testing-github-pages/tree/main/docs/webtech-course-project)
 
 ---
 
-### 🧩 Project 4: Ebook Landing Page
+### 📘 Project 4: Ebook Landing Page
 
 A modern, responsive Bootstrap website for downloading a free e-book. Features include:
 
@@ -69,21 +69,21 @@ A responsive Bootstrap site for showcasing training and seminar videos. Designed
 
 A fully responsive, dark-light themed portfolio site built with Bootstrap and custom JavaScript. Designed to showcase your professional identity and technical skills with:
 
-- 🌓 Dark/light theme contrast
-- 🖥️ Full-height hero section with typewriter effect
-- 🧠 Profile and skills section with progress bars
-- 🖼️ Lightbox modals for project previews
-- 📱 Responsive layout and clean typography
-- 🎯 Font Awesome icons and social media integration
-- 📄 “Hire Me” and “Download CV” call-to-action buttons
-- 📊 Stats section with animated metrics
-- 🛠️ Services overview and contact form powered by Netlify
+- Dark/light theme contrast
+- Full-height hero section with typewriter effect
+- Profile and skills section with progress bars
+- Lightbox modals for project previews
+- Responsive layout and clean typography
+- Font Awesome icons and social media integration
+- “Hire Me” and “Download CV” call-to-action buttons
+- Stats section with animated metrics
+- Services overview and contact form powered by Netlify
 
 🔗 [View Project 6](https://github.com/joelouie222/testing-github-pages/tree/main/docs/bootstrap5-portfolio-website)
 
 ---
 
-### 🧑‍💻 Project 7: Company Website
+### 🏢 Project 7: Company Website
 
 Bootstrap website for a company that creates and customizes office spaces. It could be used for just about any kind of business. It is a very light business theme with a clean design.
 
@@ -101,7 +101,7 @@ Bootstrap website for a company that creates and customizes office spaces. It co
 
 ---
 
-### 🧑‍💻 Project 8: Software Solutions
+### 🛠️ Project 8: Software Solutions
 
 Bootstrap Business website for software solutions, but could easily be changed to fit any business. Dark-themed design with modals and other features.
 
